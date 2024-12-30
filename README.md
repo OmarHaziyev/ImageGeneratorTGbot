@@ -8,7 +8,7 @@ This project is a Telegram bot that uses an AI image generation API (Stability A
 ## Features
 - Responds to `/start` command with a welcome message and instructions.
 - Accepts user-provided prompts for generating images.
-- Allows users to specify the number of images (1 to 5).
+- Allows users to specify the number of images (1 to 3).
 - Validates input for both prompts and number of images.
 - Uses the Stability AI API to generate high-quality images.
 - Provides the option to submit new prompts after image generation.
@@ -19,7 +19,7 @@ This project is a Telegram bot that uses an AI image generation API (Stability A
 ## How It Works
 1. **Start Interaction**: Users initiate the bot with the `/start` command.
 2. **Provide Prompt**: The bot asks users to send a text prompt for the image.
-3. **Specify Image Count**: Users specify how many images (1 to 5) they want.
+3. **Specify Image Count**: Users specify how many images (1 to 3) they want.
 4. **Generate Images**: The bot fetches images from Stability AI and sends them to the user.
 5. **Repeat or End**: After generating images, the bot prompts the user to send another prompt if they wish to generate more images.
 
